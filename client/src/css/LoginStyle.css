@@ -1,0 +1,169 @@
+/* In a CSS file or a CSS-in-JS style object */
+.custom-select {
+	width: fit-content; /* Set the desired width */
+	padding: 7px;
+	margin-top: -10;
+	border-radius: 5px;
+	font-size: 16px;
+	border: none;
+	background-color: #ea376b;
+	color: #f5f1f1;
+}
+
+.TableContainer {
+	width: 270px;
+}
+
+/* Style the dropdown arrow */
+/* .custom-select::after {
+	position: absolute;
+	top: 50%;
+	right: 17px;
+	transform: translateY(-50%);
+} */
+@media (max-width: 768px) {
+	.css-2s5oh9-MuiGrid-root {
+		max-width: 27% !important;
+	}
+	.css-s5hy0i-MuiGrid-root {
+		gap: 30px !important;
+	}
+	.css-8uhdj1-MuiButtonBase-root-MuiIconButton-root {
+		padding: 6px !important;
+		top: -6px !important;
+		right: -12px !important;
+	}
+	.css-12bo25r-MuiSvgIcon-root {
+		width: 30px;
+		height: 15px;
+	}
+	.abcd {
+		width: 30px !important;
+		height: 15px !important;
+	}
+}
+.abc {
+	border-radius: 8px !important;
+	height: 42px !important;
+}
+.formField {
+	border-radius: 8px !important;
+	height: 42px !important;
+}
+.MuiInputLabel-root {
+	top: -9px !important;
+	left: -8px !important;
+}
+@media (max-width: 768px) {
+	.css-yvetkp-MuiButtonBase-root-MuiIconButton-root {
+		color: rgb(234 55 107) !important;
+		padding: 0px !important;
+	}
+	.css-h8mwis-MuiButtonBase-root-MuiButton-root {
+		min-width: 10px !important;
+	}
+	.css-155q7sj-MuiButtonBase-root-MuiButton-root {
+		min-width: none !important;
+	}
+	.css-b28d4h-MuiTableCell-root {
+		padding: 4.5px !important;
+	}
+}
+@media (max-width: 768px) {
+	.css-1r4cpxl-MuiStack-root {
+		width: 100% !important;
+	}
+	.css-69z67c-MuiTabs-scroller {
+		width: 320px !important;
+	}
+}
+@media (min-width: 600px) {
+	.css-1r4cpxl-MuiStack-root {
+		margin-left: 59px;
+	}
+}
+.PhoneInput {
+	display: flex;
+	
+	height: 48px !important;
+	border: none !important;
+	border-radius: 8px !important;
+	background-color: #efeff5 !important;
+
+	&::after {
+		background-color: #e8f0fe !important;
+	}
+	&:focus-within {
+		background-color: #e8f0fe !important;
+	}
+}
+.PhoneInputInput {
+	flex: 1;
+	font: inherit;
+	color: "#898989";
+	font-weight: 600;
+	font-size: 14px;
+	height: 48px !important;
+	border: none !important;
+	background-color: #efeff5 !important;
+	&:hover {
+		background-color: #e8f0fe !important;
+	}
+	&:focus {
+		background-color: #e8f0fe !important;
+	}
+	&::after {
+		background-color: #e8f0fe !important;
+	}
+}
+.PhoneInput :focus {
+	border: none !important;
+	background-color: #e8f0fe !important;
+}
+div.PhoneInput.PhoneInput:focus {
+	border: none !important;
+}
+
+@media (max-width: 820px) {
+	.css-sfy116-MuiButtonBase-root-MuiTab-root {
+		padding: 10px 10px !important;
+		max-width: 300px !important;
+		min-width: 50px !important;
+	}
+	.css-jpln7h-MuiTabs-scroller {
+		overflow-x: auto !important;
+	}
+}
+.css-1b84170-MuiInputBase-root-MuiOutlinedInput-root {
+	height: 42px !important;
+}
+.react-tel-input .form-control {
+	position: relative;
+	font-size: 14px;
+	letter-spacing: 0.01rem;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	padding-left: 48px;
+	margin-left: 0;
+	/* background: #ffffff; */
+	border: none !important;
+	border-radius: 8px !important;
+	line-height: 25px;
+	height: 48px !important;
+	width: 100% !important;
+	background-color: #efeff5 !important;
+	outline: none;
+}
+
+.react-tel-input .flag-dropdown {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	padding: 0;
+	background-color: #efeff5 !important;
+	border: none !important;
+	border-radius: 8px 0 0 8px !important;
+}
+.react-tel-input .country-list {
+	color:black ;
+}

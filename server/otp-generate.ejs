@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Email Template</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        border: 1px solid #ddd;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .verification-code {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+      }
+      .footer {
+        font-size: 12px;
+        text-align: center;
+        color: #999;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="https://static.wixstatic.com/media/9b2423_71cc6f21082e4f92be02c544401c4a6b~mv2.png/v1/crop/x_251,y_292,w_1059,h_984/fill/w_70,h_67,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Transparent%20Logo.png" alt="TIVRA Logo" ></img>
+        <h2>Verify your TIVRA Health email address</h2>
+      </div>
+      <p>Hi there,</p>
+      <p>
+        Thank you for getting started with TIVRA Health! TIVRA Health plays a
+        vital role in helping our users combine all their health, fitness and
+        nutrition data for a holistic view of their health.
+      </p>
+      <p>
+        We want to make sure it's really you. Please enter the following
+        verification code. If you didn't want to create an account on TIVRA
+        Health, ignore this email.
+      </p>
+      <div class="verification-code"><%= otpVal %></div>
+      <p>This code will expire in 5 minutes after it was sent.</p>
+      <div class="footer">
+        TIVRA Health will never email you and ask you to disclose or verify your
+        password, credit card or banking account number.
+      </div>
+    </div>
+  </body>
+</html>

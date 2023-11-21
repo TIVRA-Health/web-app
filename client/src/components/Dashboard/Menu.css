@@ -1,0 +1,40 @@
+.sideNavContainer {
+	background-color: #391061;
+	height: 100vh;
+	color: white;
+}
+
+.sideMenuActive {
+	background-color: #2e0d4e;
+	color: #ea376b;
+	border-left: 2px solid #ea376b;
+}
+.appIcon {
+	width: 43.45px;
+	height: 40px;
+	flex-shrink: 0;
+}
+.textPink {
+	color: #ea376b;
+}
+.MuiCollapse-wrapperInner {
+	width: 100% !important;
+}
+.menuItem {
+	cursor: pointer;
+}
+
+.sideNavSmallDesktopWidth {
+	width: 21vw;
+}
+
+.sideNavLargeDesktopWidth {
+	width: 18vw;
+}
+
+.sideNavOverlay {
+	z-index: 10;
+	position: fixed;
+	height: 100vh;
+	background-color: #ffffff24;
+}

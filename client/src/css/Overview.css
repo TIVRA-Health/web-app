@@ -1,0 +1,77 @@
+.overlap {
+	margin-top: 15px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30vh; /* Adjust the height as needed */
+	background-color: white;
+	width: 100%;
+	border-radius: 5px;
+  }
+  
+  .no-data-found {
+	position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 86px;
+    width: 118px;
+    left: 74px;
+}
+  
+.it-seems-like-you {
+  color: #9a9a9a;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+}
+.overlap-group {
+    background-color: #ea376b;
+    border-radius: 8px;
+    height: 40px;
+    position: relative;
+    width: 200px;
+	left: 25px;
+	
+}
+.text-wrapper-9 {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+}
+
+.content-wrapper {
+	background-color: #ffffff;
+	border-radius: 8px;
+	
+	position: absolute;
+	
+}
+.go-to-CD-button {
+	height: 50px;
+	left: 16px;
+	position: relative;
+	margin-top: 70px;
+	cursor: pointer;
+	
+}
+@media (max-width: 600px) {
+	.no-data-found {
+		left: 45px;
+	}
+	.it-seems-like-you {
+		right:25px;
+	}
+	.overlap-group {
+		left: 0px;
+	}
+}

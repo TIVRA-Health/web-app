@@ -1,0 +1,68 @@
+[
+  {
+    "id": "65141e6d198605c7a4799d1a",
+    "player": {
+      "name": "Rahul Singh",
+      "icon": "userImage",
+      "active": "isEven"
+    },
+    "heartRate": {
+      "icon": "redheart",
+      "value": 46,
+      "unit": "bpm"
+    },
+    "heartRateVariability": {
+      "value": 50,
+      "icon": "heartrate"
+    },
+    "running": {
+      "value": 46,
+      "unit": "Kms",
+      "icon": "Iconrun"
+    }
+  },
+  {
+    "id": "6515f3360b21a3b2f80bac4b",
+    "player": {
+      "name": "Disha Pandey",
+      "icon": "userImage",
+      "active": "isEven"
+    },
+    "heartRate": {
+      "icon": "redheart",
+      "value": 46,
+      "unit": "bpm"
+    },
+    "heartRateVariability": {
+      "value": 50,
+      "icon": "heartrate"
+    },
+    "running": {
+      "value": 46,
+      "unit": "Kms",
+      "icon": "Iconrun"
+    }
+  },
+  {
+    "id": "65149503b82f79995451c3a1",
+    "player": {
+      "name": "Raj Kapoor",
+      "icon": "userImage",
+      "active": "isEven"
+    },
+    "heartRate": {
+      "icon": "redheart",
+      "value": 46,
+      "unit": "bpm"
+    },
+    "heartRateVariability": {
+      "value": 50,
+      "icon": "heartrate"
+    },
+    "running": {
+      "value": 46,
+      "unit": "Kms",
+      "icon": "Iconrun"
+    }
+  }
+]

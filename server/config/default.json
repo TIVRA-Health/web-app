@@ -1,0 +1,13 @@
+{
+    "mongodb": {
+        "connectionString": "mongodb://localhost:27017/tivra"
+    },
+    "jwt": {
+        "secret" : "Examination Portal Application",
+        "connectionString": "mongodb+srv://test:tivra@cluster0.laiywrd.mongodb.net/ais_mlm?authSource=admin"
+    },
+    "mail-credentials" : {
+        "userid" :"<smtp server userId>",
+        "password" : "<smtp server password>"
+    }
+}

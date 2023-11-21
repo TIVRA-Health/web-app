@@ -1,0 +1,304 @@
+[
+    {
+      "key": "Heartrate",
+      "section": "health",
+      "type": "activity",
+      "datasource": "heart_rate_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "summary"
+        },
+        {
+          "type": "obj",
+          "key": "avg_hr_bpm"
+        }
+      ]
+
+    },
+    {
+      "key": "HRV",
+      "section": "health",
+      "type": "body",
+      "datasource": "heart_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "heart_rate_data"
+        },
+        {
+          "type": "obj",
+          "key": "summary"
+        },
+        {
+          "type": "obj",
+          "key": "avg_hr_bpm"
+        }
+      ]
+
+    },
+    {
+      "key": "Sleep",
+      "section": "health",
+      "type": "sleep",
+      "datasource": "sleep_durations_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "sleep_efficiency"
+        }
+      ]
+
+    },
+    {
+      "key": "BP",
+      "section": "health",
+      "type": "body",
+      "datasource": "blood_pressure_data",
+      "datakey": [
+        {
+          "type": "arr",
+          "key": "blood_pressure_samples"
+        },
+        {
+          "type": "obj",
+          "key": "diastolic_bp"
+        },
+        {
+          "type": "obj",
+          "key": "systolic_bp"
+        }
+      ]
+
+    },
+    {
+      "key": "Temperature",
+      "section": "health",
+      "type": "body",
+      "datasource": "temperature_data",
+      "datakey": [
+        {
+          "type": "arr",
+          "key": "body_temperature_samples"
+        },
+        {
+          "type": "obj",
+          "key": "temperature_celsius"
+        }
+      ]
+
+    },
+    {
+      "key": "Menstrualcycle",
+      "section": "health",
+      "type": "menstruation",
+      "datasource": "menstruation_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "current_phase"
+        }
+      ]
+
+    },
+    {
+      "key": "VO2Max",
+      "section": "health",
+      "type": "activity",
+      "datasource": "oxygen_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "avg_saturation_percentage"
+        }
+      ]
+
+    },
+    {
+      "key": "BloodGlucoseLevel",
+      "section": "health",
+      "type": "body",
+      "datasource": "glucose_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "day_avg_blood_glucose_mg_per_dL"
+        }
+      ]
+
+    },
+    {
+      "key": "BodyBattery",
+      "section": "fitness",
+      "type": "",
+      "datasource": "",
+      "datakey": ""
+
+    },
+    {
+      "key": "RestingHeartRate",
+      "section": "health",
+      "type": "body",
+      "datasource": "heart_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "heart_rate_data"
+        },
+        {
+          "type": "obj",
+          "key": "summary"
+        },
+        {
+          "type": "obj",
+          "key": "resting_hr_bpm"
+        }
+      ]
+
+    },
+    {
+      "key": "Stepscount",
+      "section": "fitness",
+      "type": "daily",
+      "datasource": "distance_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "steps"
+        }
+      ]
+
+    },
+    {
+      "key": "Running",
+      "section": "fitness",
+      "type": "",
+      "datasource": "",
+      "datakey": ""
+
+    },
+    {
+      "key": "Respiration",
+      "section": "health",
+      "type": "sleep",
+      "datasource": "respiration_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "breaths_data"
+        },
+        {
+          "type": "obj",
+          "key": "avg_breaths_per_min"
+        }
+      ]
+
+    },
+    {
+      "key": "Stairs",
+      "section": "fitness",
+      "type": "daily",
+      "datasource": "distance_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "floors_climbed"
+        }
+      ]
+
+    },
+    {
+      "key": "Pulse",
+      "section": "health",
+      "type": "body",
+      "datasource": "heart_data",
+      "datakey": [
+        {
+          "type": "arr",
+          "key": "pulse_wave_velocity_samples"
+        }
+      ]
+
+    },
+    {
+      "key": "Stress",
+      "section": "health",
+      "type": "daily",
+      "datasource": "stress_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "avg_stress_level"
+        }
+      ]
+
+    },
+    {
+      "key": "Calories",
+      "section": "fitness",
+      "type": "activity",
+      "datasource": "calories_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "total_burned_calories"
+        }
+      ]
+
+    },
+    {
+      "key": "Weight",
+      "section": "health",
+      "type": "body",
+      "datasource": "measurements_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "measurements"
+        },
+        {
+          "type": "obj",
+          "key": "weight_kg"
+        }
+      ]
+
+    },
+    {
+      "key": "TrainingLoad",
+      "section": "fitness",
+      "type": "activity",
+      "datasource": "power_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "avg_watts"
+        }
+      ]
+    },
+    {
+      "key": "Activities",
+      "section": "fitness",
+      "type": "",
+      "datasource": "",
+      "datakey": ""
+    },
+    {
+      "key": "GPS",
+      "section": "fitness",
+      "type": "",
+      "datasource": "",
+      "datakey": ""
+    },
+    {
+      "key": "Distance",
+      "section": "fitness",
+      "type": "daily",
+      "datasource": "distance_data",
+      "datakey": [
+        {
+          "type": "obj",
+          "key": "distance_meters"
+        }
+      ]
+    }
+  ]

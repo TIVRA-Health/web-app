@@ -1,0 +1,38 @@
+.rahuj{
+    cursor: grab;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-row-end: revert-layer;
+
+position: relative;
+padding: 0px;
+}
+
+.rahug{
+    cursor: grab;
+display: grid;
+
+gap: 20px;
+height: 460px;
+overflow-y: auto;
+position: relative;
+
+
+}
+.css-1p7vffv {
+    padding: 15px !important;
+}
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    .rahug {
+        cursor: grab;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-row-end: revert-layer;
+
+height: 520px;
+
+overflow-y: auto;
+position: relative;
+padding: 0px;
+    }
+}

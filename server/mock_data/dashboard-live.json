@@ -1,0 +1,146 @@
+{
+  "health": [
+    {
+      "type": "progress",
+      "label": "Heart Rate",
+      "icon": "redheart",
+      "progressValue": 25,
+      "progressLabel": "200",
+      "key": "Heartrate"
+    },
+    {
+      "type": "string",
+      "label": "Heart Rate Variability",
+      "icon": "heartrate",
+      "value": "40",
+      "key": "HRV"
+    },
+    {
+      "type": "string",
+      "label": "Stress",
+      "icon": "Iconstress",
+      "value": "15",
+      "key": "Stress"
+    },
+    {
+      "type": "string",
+      "label": "Respiration",
+      "icon": "Iconlungs",
+      "value": "20",
+      "key": "Respiration"
+    },
+    {
+      "type": "string",
+      "label": "VOx",
+      "icon": "IconVOx",
+      "value": "46",
+      "key": "VO2Max"
+    },
+    {
+      "type": "progress",
+      "label": "Pulse O2",
+      "icon": "Iconpulse",
+      "progressValue": 90,
+      "progressLabel": "90",
+      "key": "Pulse"
+    },
+    {
+      "type": "string",
+      "label": "Weight",
+      "icon": "Iconweight",
+      "value": "186",
+      "secondaryValue": "Pounds",
+      "key": "Weight"
+    },
+    {
+      "type": "string",
+      "label": "Blood Pressure",
+      "icon": "IconBP",
+      "value": "132/72",
+      "key": "BP"
+    },
+    {
+      "type": "string",
+      "label": "Mental Assessment",
+      "icon": "IconMental",
+      "value": "Not ",
+      "customLabelColor": "#15AD64",
+      "customFontSize": "16px",
+      "customLineHeight": "19px",
+      "key": "Menstrualcycle"
+    }
+  ],
+  "fitness": [
+    {
+      "type": "progress",
+      "label": "Steps Count",
+      "icon": "Iconredfoot",
+      "progressValue": 60,
+      "progressLabel": "3000",
+      "customLabelColor": "#000000",
+      "customFontSize": "24px",
+      "customLineHeight": "29px",
+      "key": "Stepscount"
+    },
+    {
+      "type": "string",
+      "label": "Iconrun",
+      "icon": "Iconrun",
+      "value": "1.1",
+      "secondaryValue": "Km",
+      "key": "Running"
+    },
+    {
+      "type": "string",
+      "label": "Calories Burned",
+      "icon": "Iconredfire",
+      "value": "185",
+      "key": "Calories"
+    },
+    {
+      "type": "progress",
+      "label": "Body Battery",
+      "icon": "Iconbodybattery",
+      "progressValue": 80,
+      "progressLabel": "80",
+      "customLabelColor": "#000000",
+      "customFontSize": "24px",
+      "customLineHeight": "29px",
+      "key": "BodyBattery"
+    },
+    {
+      "type": "string",
+      "label": "Training Load",
+      "icon": "Icontrainingload",
+      "value": "1.1",
+      "secondaryValue": "Pounds",
+      "key": "TrainingLoad"
+    },
+    {
+      "type": "string",
+      "label": "Iconactivity",
+      "icon": "Iconactivity",
+      "value": "30",
+      "key": "Activities"
+    }
+  ],
+  "nutrition": [
+    {
+      "type": "progress",
+      "label": "Sugar",
+      "icon": "Iconredfoot",
+      "progressValue": 60,
+      "progressLabel": "3000",
+      "customLabelColor": "#000000",
+      "customFontSize": "24px",
+      "customLineHeight": "29px"
+    },
+    {
+      "type": "string",
+      "label": "Carbs",
+      "icon": "Iconrun",
+      "value": "1.1",
+      "secondaryValue": "Km"
+    }
+  ]
+}

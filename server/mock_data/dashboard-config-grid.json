@@ -1,0 +1,178 @@
+[
+	{
+		"id": "1",
+		"category": "Health",
+		"label": "Heart Rate",
+		"icon": "redheart",
+		"item": "Heart Rate",
+		"user_device_id": "1"
+	},
+	{
+		"id": "2",
+		"category": "Health",
+		"label": "Heart Rate Variability",
+		"icon": "heartrate",
+		"item": "Heart Rate Variability",
+		"user_device_id": "101"
+	},
+	{
+		"id": "3",
+		"category": "Health",
+		"label": "Stress",
+		"icon": "Iconstress",
+		"item": "Stress",
+		"user_device_id": "102"
+	},
+	{
+		"id": "4",
+		"category": "Health",
+		"label": "Respiration",
+		"icon": "Iconlungs",
+		"item": "Respiration",
+		"user_device_id": "103"
+	},
+	{
+		"id": "5",
+		"category": "Health",
+		"label": "VOx",
+		"icon": "IconVOx",
+		"item": "VOx",
+		"user_device_id": "104"
+	},
+	{
+		"id": "6",
+		"category": "Health",
+		"label": "Pulse O2",
+		"icon": "Iconpulse",
+		"item": "Pulse O2",
+		"user_device_id": "105"
+	},
+	{
+		"id": "7",
+		"category": "Health",
+		"label": "Weight",
+		"icon": "Iconweight",
+		"item": "Weight",
+		"user_device_id": "106"
+	},
+	{
+		"id": "9",
+		"category": "Health",
+		"label": "Blood Pressure",
+		"icon": "IconBP",
+		"item": "Blood Pressure",
+		"user_device_id": "107"
+	},
+	{
+		"id": "10",
+		"category": "Health",
+		"label": "Mental Assessment",
+		"icon": "IconMental",
+		"item": "Mental Assessment",
+		"user_device_id": "108"
+	},
+	{
+		"id": "11",
+		"category": "Fitness",
+		"label": "Steps Count",
+		"icon": "Iconredfoot",
+		"item": "Steps Count",
+		"user_device_id": "109"
+	},
+	{
+		"id": "12",
+		"category": "Fitness",
+		"label": "Iconrun",
+		"icon": "Iconrun",
+		"item": "Heart Rate",
+		"user_device_id": "110"
+	},
+	{
+		"id": "13",
+		"category": "Fitness",
+		"label": "Calories Burned",
+		"icon": "Iconredfire",
+		"item": "Calories Burned",
+		"user_device_id": "111"
+	},
+	{
+		"id": "14",
+		"category": "Fitness",
+		"label": "Body Battery",
+		"icon": "Iconbodybattery",
+		"item": "Body Battery",
+		"user_device_id": "112"
+	},
+	{
+		"id": "15",
+		"category": "Fitness",
+		"label": "Training Load",
+		"icon": "Icontrainingload",
+		"item": "Training Load",
+		"user_device_id": "112"
+	},
+	{
+		"id": "16",
+		"category": "Fitness",
+		"label": "Iconactivity",
+		"icon": "Iconactivity",
+		"item": "Heart Rate",
+		"user_device_id": "113"
+	},
+	{
+		"id": "17",
+		"category": "Nutrition",
+		"label": "Water",
+		"icon": "Iconrun",
+		"item": "Water",
+		"user_device_id": "114"
+	},
+	{
+		"id": "18",
+		"category": "Nutrition",
+		"label": "Calories Intake",
+		"icon": "Iconrun",
+		"item": "Calories Intake",
+		"user_device_id": "115"
+	},
+	{
+		"id": "19",
+		"category": "Nutrition",
+		"label": "Fat",
+		"icon": "Iconrun",
+		"item": "Fat",
+		"user_device_id": "116"
+	},
+	{
+		"id": "20",
+		"category": "Nutrition",
+		"label": "Protein",
+		"icon": "Iconrun",
+		"item": "Protein",
+		"user_device_id": "117"
+	},
+	{
+		"id": "21",
+		"category": "Nutrition",
+		"label": "Cholesterol",
+		"icon": "Iconrun",
+		"item": "Cholesterol",
+		"user_device_id": "118"
+	},
+	{
+		"id": "22",
+		"category": "Nutrition",
+		"label": "Sugars",
+		"icon": "Iconrun",
+		"item": "Sugars",
+		"user_device_id": "119"
+	},
+	{
+		"id": "23",
+		"category": "Nutrition",
+		"label": "Fibers",
+		"icon": "Iconrun",
+		"item": "Fibers",
+		"user_device_id": "120"
+	}
+]

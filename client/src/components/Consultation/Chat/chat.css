@@ -1,0 +1,120 @@
+/* Variables */
+
+/* Mixins */
+
+.user {
+	align-self: flex-end;
+	text-align: right;
+  min-width: 50%;
+  color:#391061;
+}
+
+.bot {
+	align-self: flex-start;
+	align-items: left;
+  text-align: justify;
+  max-width: 50%;
+  color: #ea376b;
+}
+
+/* Chat Container */
+.message-container {
+	overflow-y: auto;
+	margin-bottom: .2em;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+/* Chat Bubbles */
+.message {
+	/* display: inline-block; */
+	overflow-wrap: break-word;
+	
+	
+	/* max-width: 50%; */
+	word-wrap: break-word; /* Add this for better word wrapping */
+}
+
+/* User Options */
+.options {
+	background: white;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.options > div:first-child {
+	font-size: 1.3em;
+	margin: 0.7em 0.7em 0.9em 0.3em;
+	transform: rotate(90deg);
+}
+
+.options > div:first-child i {
+	color: #393e46;
+	animation: arrow-move 1.2s infinite;
+}
+
+@keyframes arrow-move {
+	0% {
+		transform: translateY(4px);
+	}
+	50% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(4px);
+	}
+}
+
+.options p {
+	padding: 10px;
+	margin-right: 0.8em;
+	background: #e5dfdf; /* Adjust the background color as needed */
+	color: #ea376b;
+	border-radius: 10px;
+}
+
+.options p:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+/* Dummy Div */
+.chating {
+	/* Add your styles here */
+	padding: 10px;
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+/* Apply styles to the inner div with class "typing-indicator" */
+.typing-indicator {
+	/* Add your styles here */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Apply styles to the span elements inside the "typing-indicator" */
+.typing-indicator span {
+	/* Add your styles here */
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background-color: #333;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.dhide {
+	display: none;
+}
+.message p:empty {
+  display: none;
+}
+

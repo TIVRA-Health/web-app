@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "1",
+    "userId": "",
+    "itemName": "",
+    "calories": "",
+    "cholesterol": "",
+    "fat": "",
+    "protein": "",
+    "fiber": "",
+    "sugar": "",
+    "itemQty": "",
+    "item": "breakfast"
+  },
+  {
+    "_id": "2",
+    "userId": "",
+    "itemName": "",
+    "calories": "",
+    "cholesterol": "",
+    "fat": "",
+    "protein": "",
+    "fiber": "",
+    "sugar": "",
+    "itemQty": "",
+    "item": "lunch"
+  },
+  {
+    "_id": "3",
+    "userId": "",
+    "itemName": "",
+    "calories": "",
+    "cholesterol": "",
+    "fat": "",
+    "protein": "",
+    "fiber": "",
+    "sugar": "",
+    "itemQty": "",
+    "item": "dinner"
+  }
+]

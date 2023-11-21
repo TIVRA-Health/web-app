@@ -1,0 +1,550 @@
+{
+  "health": [
+    { 
+      "label": "Heart Rate",
+      "icon": "redheart",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+
+    {
+      "label": "Heart Rate Variability",
+      "icon": "heartrate",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Stress",
+      "icon": "Iconstress",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Respiration",
+      "icon": "Iconlungs",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "VOx",
+      "icon": "IconVOx",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Pulse O2",
+      "icon": "Iconpulse",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Weight",
+      "icon": "Iconweight",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Blood Pressure",
+      "icon": "IconBP",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Mental Assessment",
+      "icon": "IconMental",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    }
+  ],
+  "fitness": [
+    {
+      "label": "Steps Count",
+      "icon": "Iconredfoot",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+
+    {
+      "label": "Running",
+      "icon": "Iconrun",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Calories Burned",
+      "icon": "Iconredfire",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Body Battery",
+      "icon": "Iconbodybattery",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Traning Load",
+      "icon": "Icontrainingload",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    }
+  ],
+  "nutrition": [
+    {
+      "label": "Sugar",
+      "icon": "Iconpulse",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Carbs",
+      "icon": "Iconweight",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Vitamins",
+      "icon": "IconBP",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    },
+    {
+      "label": "Nutrients",
+      "icon": "IconMental",
+      "data": [
+        {
+          "name": "Jan",
+          "value": -200,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Feb",
+          "value": 400,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        },
+        {
+          "name": "Mar",
+          "value": 900,
+          "min": -400,
+          "max": 400,
+          "minGraphRange": -1200,
+          "maxGraphRange": 1200
+        }
+      ]
+    }
+  ]
+}

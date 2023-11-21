@@ -1,0 +1,47 @@
+{
+  "userId": "6516a1e33068175eceb6bfd1",
+  "preference": [
+    {
+      "id": 7,
+      "item": "Heart Rate",
+      "icon": "redheart",
+      "active": true,
+      "isPreferred": true
+    },
+    {
+      "id": 8,
+      "item": "Heart Rate Variability",
+      "icon": "heartrate",
+      "active": true,
+      "isPreferred": false
+    },
+    {
+      "id": 9,
+      "item": "Stress",
+      "icon": "Iconstress",
+      "active": false,
+      "isPreferred": true
+    },
+    {
+      "id": 10,
+      "item": "Respiration",
+      "icon": "Iconlungs",
+      "active": false,
+      "isPreferred": true
+    },
+    {
+      "id": 11,
+      "item": "VOx",
+      "icon": "IconVOx",
+      "active": false,
+      "isPreferred": true
+    },
+    {
+      "id": 12,
+      "item": "Pulse O2",
+      "icon": "Iconpulse",
+      "active": false,
+      "isPreferred": true
+    }
+  ]
+}
